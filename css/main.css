@@ -7,8 +7,32 @@ html {
   box-sizing: inherit;
 }
 
+div {
+  padding: .2rem;
+  display: block;
+  font-size: 1rem;
+
+}
+
+dt {
+  display: inline-block;
+  width: 43%;
+}
+
+dd {
+  display: inline-block;
+  width: 43%;
+  font-style: italic;
+}
+
 body {
   background-color: #f0eee8;
+}
+
+.break {
+  display: block;
+  background-color: : #512200;
+  width: 100%;
 }
 
 h1 {
@@ -18,8 +42,8 @@ h1 {
 
 main {
   background-color: #dcd4cd;
-  border: 3px solid #333;
-  border-radius: 8px;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
 }
 
 .link-card {
@@ -30,7 +54,15 @@ main {
   color: #512200;
 }
 
+.link-card:hover{
+background-color: #cabdb2;
+}
+
 small {
+  padding-left: 30%;
+  background-color: #785439;
+  padding:.4em .75em .5em;
+  border-radius: 8px;
   display: block;
   color: #f0eee8;
   font-size: 1.125rem;
